@@ -1,0 +1,26 @@
+{
+  "id": "/",
+  "short_name": "ডিমলা রক্ত",
+  "name": "ডিমলা ব্লাড ডোনার সোসাইটি",
+  "description": "রক্তের প্রয়োজনে, পাশে আছি আমরা - নীলফামারী জেলার ডিমলা উপজেলার স্বেচ্ছাসেবী রক্তদাতা প্ল্যাটফর্ম",
+  "icons": [
+    {
+      "src": "/logo.jpg",
+      "type": "image/jpeg",
+      "sizes": "192x192",
+      "purpose": "any"
+    },
+    {
+      "src": "/logo.jpg",
+      "type": "image/jpeg",
+      "sizes": "512x512",
+      "purpose": "any"
+    }
+  ],
+  "start_url": "/",
+  "scope": "/",
+  "background_color": "#ffffff",
+  "theme_color": "#dc2626",
+  "display": "standalone",
+  "orientation": "portrait"
+}

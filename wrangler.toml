@@ -1,0 +1,20 @@
+name = "dimla-blood-donor-society"
+main = "cloudflare/worker.ts"
+compatibility_date = "2024-09-23"
+compatibility_flags = ["nodejs_compat"]
+
+[assets]
+directory = "./dist"
+binding = "ASSETS"
+not_found_handling = "single-page-application"
+run_worker_first = true
+
+[[d1_databases]]
+binding = "DB"
+database_name = "dimla_blood_db"
+database_id = "REPLACE_WITH_YOUR_CLOUDFLARE_D1_DATABASE_ID"
+
+[vars]
+ENVIRONMENT = "production"
+APP_NAME = "ডিমলা ব্লাড ডোনার সোসাইটি"
+JWT_SECRET = "dimla_blood_society_super_secret_jwt_key_2026"
